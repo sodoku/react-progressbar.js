@@ -28,7 +28,7 @@ same for react-progressbar.js too*
 Install the library using npm:
 
 ```
-npm install --save react-progressbar.js
+npm install --save react-progress-bar.js
 ```
 
 Since React users are anyways using a CommonJS module loader, this module is published
