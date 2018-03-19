@@ -102,7 +102,7 @@ function mergeArgsToDefaults(config) {
     if (program.args[0]) {
         config.bumpType = program.args[0];
 
-        if (!_.contains(['major', 'minor', 'patch'], config.bumpType)) {
+        if (!_.includes(['major', 'minor', 'patch'], config.bumpType)) {
             console.error('Error:', config.bumpType, 'is not a valid bump type');
             process.exit(1);
         }
